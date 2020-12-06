@@ -1,0 +1,139 @@
+body {
+    background-color: rgb(12, 12, 66);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: whitesmoke;
+}
+
+h1 {
+    letter-spacing: 5px;
+    font-size: 4rem;
+    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 0;
+}
+
+.red {
+    color: rgb(196, 60, 60);
+}
+
+.blue {
+    color: rgb(46, 46, 133);
+}
+
+.white {
+    color: rgb(238, 227, 227);
+}
+
+.green {
+    color: rgb(12, 77, 12);
+}
+
+.yellow {
+    color: rgb(216, 216, 6);
+}
+
+.motto {
+    border-top: .7px solid rgb(201, 55, 55);
+    border-bottom: .7px solid rgb(155, 155, 20);
+    margin: 1rem auto;
+    width: 200px;
+    padding: 7px 2px;
+}
+
+section {
+    padding: 2rem;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin:9px auto;
+    list-style: none;
+    border:2px solid rgb(170, 16, 16);
+    border-radius: 2px;
+    padding:1rem;
+}
+
+ul li{
+    padding-left:1rem;
+    text-align: left;
+    padding-right: 9px;
+    margin-bottom: 15px;
+}
+
+li a{
+    float: right;
+    background-color: red;
+    padding:3px;
+}
+
+a:hover{
+    cursor: pointer;
+}
+
+button, [type="submit"] {
+    opacity: .6;
+    background: rgb(10, 145, 10);
+    border: 0;
+    outline: none;
+    border-radius: 3px;
+    cursor: pointer;
+    color: whitesmoke;
+    padding: .5em 1.5em;
+    font-size: 17px;
+}
+
+#btn_new-task{
+    width: auto;
+    margin: auto;
+}
+
+
+button#btn_new-task:hover {
+    opacity: .8;
+}
+
+form{
+    display:none;
+}
+
+#edit-item{
+    display:block;
+}
+
+fieldset {
+    border: 0;
+}
+
+fieldset>div {
+    margin-bottom: 20px;
+}
+
+label {
+    color: rgb(69, 54, 199);
+}
+
+input {
+    width: 200px;
+    margin-left: 10px;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px solid rgb(7, 3, 24);
+    color: rgb(245, 233, 233);
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#edit-item input{
+    width: 100px;
+}
+
+#title:valid{
+    border-bottom:2px solid greenyellow;
+}
+
+#title:invalid{
+    border-bottom: 2px solid red;
+}

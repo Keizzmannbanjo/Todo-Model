@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Liverr || ToDo App</title>
+        <link href="styles.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <header class="header">
+            <h1><span class="red">L</span><span class="white">I</span><span class="green">V</span><span
+                    class="blue">E</span><span class="yellow">R</span><span class="red">R</span></h1>
+            <p class="motto">Let's get you organised</p>
+        </header>
+        <section>
+            <h2>Welcome Keizzmann, <br> what do you want to focus on today</h2>
+
+            <ul class="todo-list" id="todo-list" style="display: none;">
+
+            </ul>
+
+            <form id="taskForm">
+                <fieldset>
+                    <div>
+                        <label for="title">Title:</label>
+                        <input type="text" id="title" required>
+                        <button type="submit">Enter</button>
+                    </div>
+                </fieldset>
+            </form>
+            <button id="btn_new-task">Create new task</button>
+        </section>
+
+        <script src="todo-model.js"></script>
+    </body>
+
+</html>
